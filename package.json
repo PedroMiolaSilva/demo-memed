@@ -11,12 +11,7 @@
   "author": "aziontech",
   "license": "ISC",
   "dependencies": {
-    "@langchain/community": "^0.3.42",
-    "@langchain/core": "^0.3.54",
-    "azion": "latest",
-    "gray-matter": "^4.0.3",
-    "itty-router": "^4.2.0",
-    "langchain": "^0.3.24"
+    "azion": "latest"
   },
   "devDependencies": {
     "typescript": "^5.4.2"
