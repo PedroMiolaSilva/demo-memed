@@ -25,6 +25,8 @@ Next, add a [personal token](https://console.azion.com/personal-tokens) to authe
 azion -t PERSONAL_TOKEN
 ```
 
+Also, include your token into .env.
+
 ## Setup and deploy solution
 
 Make sure you have Node 20 or higher and [yarn](https://yarnpkg.com/) installed.
