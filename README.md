@@ -2,36 +2,48 @@
 
 This template allows you to retrieve documents using hybrid search, that combines both similarity and full-text search.
 
-It creates an Edge Application, powered by EdgeAI and an EdgeSQL database to store your data.
+It creates an Edge Application and an Edge Function powered by EdgeAI and EdgeSQL database to store and retrieve your data.
 
-To use this template:
+# To use this template:
 
-1 - Clone this repository:
+## Clone this repository:
 
 ```bash
-git clone this url that idk yet :) 
+git clone https://github.com/PedroMiolaSilva/demo-memed
 ```
 
-2 - Install Azion CLI
+## Install Azion CLI (Mac)
 
 ```bash
 brew install azion
 ```
+For other platforms (Windows/Linux) you can [view the instructions](https://www.azion.com/en/documentation/products/azion-cli/overview/) on how to install the Azion CLI.
 
-3 - On the project's folder, run the following:
+Next, add a [personal token](https://console.azion.com/personal-tokens) to authenticate.
+```bash
+azion -t PERSONAL_TOKEN
+```
+
+## Setup and deploy solution
+
+Make sure you have Node 20 or higher and [yarn](https://yarnpkg.com/) installed.
+
+Run the following on the project root folder.
 ```bash
 yarn install
 azion init
 azion deploy --local
 ```
 
-4 - After a couple minutes, your template will be deployed on Azion's Edge. Then, you can test two available routes:
+After a couple minutes, your template will be deployed on Azion's Edge (a domain will be provided at the end of the deployment). 
+
+Then, you can test two available routes:
 - /query: to retrieve documents based on a query
 - /add_documents: to add new documents to your database
 
-## API Endpoints
+# API Endpoints
 
-### Query Documents
+## Query Documents
 Search for documents using vector similarity and full-text search.
 
 ```bash
@@ -44,7 +56,7 @@ curl -X POST 'https://your-edge-url/query' \
 }'
 ```
 
-### Add Documents
+## Add Documents
 Add new documents to the vector database.
 
 ```bash
