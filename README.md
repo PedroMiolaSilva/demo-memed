@@ -9,7 +9,7 @@ To use this template:
 1 - Clone this repository:
 
 ```bash
-git clone this url that idk yet :) 
+git clone https://github.com/PedroMiolaSilva/demo-memed.git
 ```
 
 2 - Install Azion CLI
