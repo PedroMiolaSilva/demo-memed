@@ -1,11 +1,10 @@
 {
-  "name": "simple-ts-router",
+  "name": "retrieval-demo",
   "version": "1.0.0",
   "description": "",
   "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "setup-db": "tsx migrations/setupDatabase.ts && tsx migrations/uploadDocs.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "aziontech",
