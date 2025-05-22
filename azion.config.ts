@@ -12,7 +12,7 @@ export default defineConfig({
         await configureDatabase("memeddatabase")
         console.log("Database fully configured!")
       } catch (error) {
-        console.error("Error generating templates:", error);
+        console.error("Error configuring database:", error);
         throw error;
       }
       }
