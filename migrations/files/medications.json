@@ -1,0 +1,353 @@
+[
+    {
+        "nome": "Isotretinoína",
+        "descricao": "Medicamento oral derivado da vitamina A utilizado no tratamento de acne grave, resistente e com tendência a deixar cicatrizes. Atua reduzindo a produção de sebo pelas glândulas sebáceas, diminuindo a inflamação e prevenindo a formação de cravos e espinhas. Requer monitoramento médico rigoroso devido aos potenciais efeitos colaterais, incluindo ressecamento da pele e mucosas, e é absolutamente contraindicado durante a gravidez pelo alto risco teratogênico.",
+        "dosagem": "20mg",
+        "laboratorio": "Roche",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Gravidez, amamentação, insuficiência hepática, hipervitaminose A",
+        "efeitos_colaterais": "Ressecamento da pele e mucosas, alterações nos níveis de lipídios, sensibilidade ao sol"
+    },
+    {
+        "nome": "Adapaleno",
+        "descricao": "Retinoide tópico de terceira geração utilizado no tratamento de acne leve a moderada. Age normalizando a diferenciação dos folículos, prevenindo a formação de microcomedões e reduzindo lesões inflamatórias. Apresenta menor irritação cutânea em comparação com outros retinoides tópicos, sendo uma opção de primeira linha para acne comedônica e inflamatória. Pode ser combinado com peróxido de benzoíla para maior eficácia.",
+        "dosagem": "0,1% gel",
+        "laboratorio": "Galderma",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Hipersensibilidade ao adapaleno, eczema, queimaduras solares",
+        "efeitos_colaterais": "Vermelhidão, descamação, sensação de queimação, fotossensibilidade"
+    },
+    {
+        "nome": "Minoxidil",
+        "descricao": "Vasodilatador tópico utilizado no tratamento da alopecia androgenética (calvície de padrão masculino ou feminino). Prolonga a fase anágena (crescimento) do ciclo capilar e aumenta o diâmetro do folículo piloso, resultando em fios mais grossos e densos. Requer aplicação contínua para manutenção dos resultados, com primeiros efeitos visíveis após 3-4 meses de uso regular. Disponível em diferentes concentrações, sendo 5% mais comum para homens e 2% para mulheres.",
+        "dosagem": "5% solução",
+        "laboratorio": "Kirkland",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Hipersensibilidade ao minoxidil, dermatite do couro cabeludo",
+        "efeitos_colaterais": "Irritação local, crescimento de pelos em áreas indesejadas, taquicardia (raro)"
+    },
+    {
+        "nome": "Diclofenaco",
+        "descricao": "Anti-inflamatório não esteroidal (AINE) potente utilizado no tratamento de dor e inflamação associadas a condições musculoesqueléticas agudas e crônicas. Atua inibindo a produção de prostaglandinas através do bloqueio das enzimas ciclo-oxigenases (COX). Eficaz no manejo de dor pós-traumática, artrite, tendinite e bursite. Disponível em diversas formulações, incluindo comprimidos, gel tópico e injeções, permitindo tratamento sistêmico ou localizado conforme a necessidade clínica.",
+        "dosagem": "50mg",
+        "laboratorio": "Novartis",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Úlcera péptica ativa, insuficiência renal grave, hipersensibilidade aos AINEs",
+        "efeitos_colaterais": "Desconforto gastrointestinal, risco de sangramento, retenção de líquidos"
+    },
+    {
+        "nome": "Condroitina + Glicosamina",
+        "descricao": "Combinação de suplementos utilizados como condroprotetores no tratamento de osteoartrite. A glicosamina é um precursor natural dos glicosaminoglicanos, componentes essenciais da cartilagem articular, enquanto a condroitina ajuda a manter a viscosidade do líquido sinovial e inibe enzimas que degradam a cartilagem. Juntos, podem ajudar a reduzir a dor, melhorar a mobilidade articular e potencialmente retardar a progressão da osteoartrite, especialmente nos joelhos. Os benefícios geralmente são observados após uso contínuo por 2-3 meses.",
+        "dosagem": "1500mg + 1200mg",
+        "laboratorio": "Zodiac",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Alergia a mariscos (para glicosamina derivada de crustáceos)",
+        "efeitos_colaterais": "Desconforto gastrointestinal leve, dor de cabeça"
+    },
+    {
+        "nome": "Colágeno Hidrolisado",
+        "descricao": "Suplemento proteico composto por peptídeos de colágeno de baixo peso molecular, facilmente absorvidos pelo organismo. Utilizado como adjuvante no tratamento de condições articulares degenerativas e lesões tendíneas. Estudos sugerem que pode estimular a síntese de colágeno endógeno nas articulações e tecidos conjuntivos, contribuindo para a regeneração da cartilagem e fortalecimento de tendões e ligamentos. Frequentemente recomendado em casos de osteoartrite, tendinopatias crônicas e no pós-operatório de cirurgias ortopédicas para acelerar a recuperação tecidual.",
+        "dosagem": "10g",
+        "laboratorio": "Vitafor",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Hipersensibilidade ao colágeno bovino ou de pescado",
+        "efeitos_colaterais": "Sensação de plenitude, alterações no paladar"
+    },
+    {
+        "nome": "Atorvastatina",
+        "descricao": "Estatina potente que reduz os níveis de colesterol LDL (ruim) e triglicerídeos, enquanto aumenta moderadamente o colesterol HDL (bom). Atua inibindo a enzima HMG-CoA redutase, essencial para a produção de colesterol no fígado. Além do efeito hipolipemiante, possui propriedades anti-inflamatórias e estabilizadoras de placa aterosclerótica, contribuindo para a prevenção primária e secundária de eventos cardiovasculares como infarto do miocárdio e acidente vascular cerebral. Considerada uma das estatinas mais eficazes na redução do colesterol LDL, com diminuição de até 50% nas doses mais altas.",
+        "dosagem": "20mg",
+        "laboratorio": "Pfizer",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Doença hepática ativa, gravidez, amamentação",
+        "efeitos_colaterais": "Mialgia, elevação de enzimas hepáticas, desconforto gastrointestinal"
+    },
+    {
+        "nome": "Losartana",
+        "descricao": "Antagonista dos receptores da angiotensina II (BRA) utilizado no tratamento da hipertensão arterial e insuficiência cardíaca. Bloqueia a ligação da angiotensina II aos seus receptores, reduzindo a vasoconstrição e a retenção de sódio e água, resultando em diminuição da pressão arterial. Oferece proteção cardiovascular e renal, sendo particularmente benéfico para pacientes com diabetes, insuficiência cardíaca ou doença renal crônica. Apresenta perfil de efeitos colaterais favorável em comparação com inibidores da ECA, com menor incidência de tosse seca, tornando-se uma opção preferencial para muitos pacientes hipertensos.",
+        "dosagem": "50mg",
+        "laboratorio": "Merck",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Gravidez, insuficiência hepática grave, uso concomitante com alisquireno em diabéticos",
+        "efeitos_colaterais": "Tontura, hipotensão, hipercalemia (raro)"
+    },
+    {
+        "nome": "Rivaroxabana",
+        "descricao": "Anticoagulante oral direto que inibe seletivamente o fator Xa da coagulação, prevenindo a formação de trombos. Utilizado na prevenção de acidente vascular cerebral em pacientes com fibrilação atrial não-valvar, tratamento e prevenção de tromboembolismo venoso e prevenção de eventos aterotrombóticos após síndrome coronariana aguda. Apresenta vantagens sobre a varfarina por não necessitar de monitoramento laboratorial regular, ter menos interações medicamentosas e alimentares, e posologia mais conveniente. A administração em dose única diária e sem necessidade de ajuste para a maioria dos pacientes melhora a adesão ao tratamento.",
+        "dosagem": "15mg",
+        "laboratorio": "Bayer",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Sangramento ativo clinicamente significativo, lesões ou condições com risco significativo de sangramento maior",
+        "efeitos_colaterais": "Sangramento, anemia, náusea, elevação de enzimas hepáticas"
+    },
+    {
+        "nome": "Rosuvastatina",
+        "descricao": "Estatina de alta potência utilizada para redução do colesterol LDL e prevenção de eventos cardiovasculares. Atua inibindo a HMG-CoA redutase no fígado.",
+        "dosagem": "10mg",
+        "laboratorio": "AstraZeneca",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Doença hepática ativa, gravidez, amamentação",
+        "efeitos_colaterais": "Mialgia, elevação de enzimas hepáticas, constipação"
+    },
+    {
+        "nome": "Clopidogrel",
+        "descricao": "Antiagregante plaquetário usado para prevenção de eventos trombóticos em pacientes com doença arterial coronariana, AVC ou doença arterial periférica.",
+        "dosagem": "75mg",
+        "laboratorio": "Sanofi",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Sangramento ativo, hipersensibilidade",
+        "efeitos_colaterais": "Hemorragias, distúrbios gastrointestinais, púrpura"
+    },
+    {
+        "nome": "Metoprolol",
+        "descricao": "Betabloqueador utilizado no tratamento de hipertensão, angina e insuficiência cardíaca. Reduz a frequência cardíaca e a pressão arterial.",
+        "dosagem": "50mg",
+        "laboratorio": "Aché",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Bradicardia severa, bloqueio AV de 2º ou 3º grau, insuficiência cardíaca descompensada",
+        "efeitos_colaterais": "Fadiga, tontura, bradicardia"
+    },
+    {
+        "nome": "Amiodarona",
+        "descricao": "Antiarrítmico utilizado para tratar arritmias ventriculares e supraventriculares graves. Prolonga o potencial de ação cardíaco.",
+        "dosagem": "200mg",
+        "laboratorio": "Medley",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Doença tireoidiana, bradicardia severa, bloqueio AV",
+        "efeitos_colaterais": "Alterações tireoidianas, fotossensibilidade, depósitos corneanos"
+    },
+    {
+        "nome": "Hidroclorotiazida",
+        "descricao": "Diurético tiazídico utilizado no tratamento da hipertensão e edemas de diversas origens. Atua nos túbulos distais dos rins.",
+        "dosagem": "25mg",
+        "laboratorio": "EMS",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Anúria, insuficiência renal grave, hipersensibilidade às sulfonamidas",
+        "efeitos_colaterais": "Hipocalemia, hiponatremia, hiperuricemia"
+    },
+    {
+        "nome": "Betametasona",
+        "descricao": "Corticosteroide tópico potente utilizado para tratar dermatoses inflamatórias e alérgicas, como dermatite atópica e psoríase.",
+        "dosagem": "0,1% creme",
+        "laboratorio": "Cimed",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Infecções cutâneas virais, fúngicas ou bacterianas não tratadas",
+        "efeitos_colaterais": "Atrofia cutânea, telangiectasia, estrias"
+    },
+    {
+        "nome": "Clindamicina",
+        "descricao": "Antibiótico tópico utilizado no tratamento da acne vulgar, inibindo o crescimento de bactérias e reduzindo a inflamação.",
+        "dosagem": "1% gel",
+        "laboratorio": "Stiefel",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Hipersensibilidade à clindamicina ou lincomicina",
+        "efeitos_colaterais": "Irritação local, ressecamento, prurido"
+    },
+    {
+        "nome": "Tretinoína",
+        "descricao": "Retinoide tópico utilizado no tratamento da acne e do fotoenvelhecimento, promovendo renovação celular e clareamento de manchas.",
+        "dosagem": "0,05% creme",
+        "laboratorio": "Janssen",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Eczema agudo, queimaduras solares",
+        "efeitos_colaterais": "Descamação, vermelhidão, ardor"
+    },
+    {
+        "nome": "Cetoconazol",
+        "descricao": "Antifúngico tópico utilizado para tratar dermatite seborreica, pitiríase versicolor e outras micoses superficiais.",
+        "dosagem": "2% creme",
+        "laboratorio": "Medley",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Hipersensibilidade ao cetoconazol",
+        "efeitos_colaterais": "Irritação local, prurido, sensação de queimação"
+    },
+    {
+        "nome": "Calcipotriol",
+        "descricao": "Análogo da vitamina D utilizado no tratamento da psoríase em placas, reduzindo a proliferação de queratinócitos.",
+        "dosagem": "0,005% pomada",
+        "laboratorio": "Leo Pharma",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Hipercalcemia, distúrbios do metabolismo do cálcio",
+        "efeitos_colaterais": "Irritação local, prurido, eritema"
+    },
+    {
+        "nome": "Carvedilol",
+        "descricao": "Betabloqueador não seletivo com ação vasodilatadora, utilizado no tratamento da insuficiência cardíaca e hipertensão.",
+        "dosagem": "25mg",
+        "laboratorio": "Torrent",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Asma, bradicardia severa, insuficiência cardíaca descompensada",
+        "efeitos_colaterais": "Hipotensão, tontura, fadiga"
+    },
+    {
+        "nome": "Espironolactona",
+        "descricao": "Diurético poupador de potássio utilizado em insuficiência cardíaca, hipertensão e hiperaldosteronismo.",
+        "dosagem": "100mg",
+        "laboratorio": "Bayer",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Insuficiência renal aguda, hipercalemia, doença de Addison",
+        "efeitos_colaterais": "Ginecomastia, hipercalemia, distúrbios gastrointestinais"
+    },
+    {
+        "nome": "Valsartana",
+        "descricao": "Antagonista dos receptores de angiotensina II usado para tratar hipertensão e insuficiência cardíaca.",
+        "dosagem": "80mg",
+        "laboratorio": "Novartis",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Gravidez, insuficiência hepática grave",
+        "efeitos_colaterais": "Tontura, hipotensão, hipercalemia"
+    },
+    {
+        "nome": "Mupirocina",
+        "descricao": "Antibiótico tópico utilizado para tratar infecções cutâneas como impetigo e foliculite.",
+        "dosagem": "2% pomada",
+        "laboratorio": "GlaxoSmithKline",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Hipersensibilidade à mupirocina",
+        "efeitos_colaterais": "Ardor, prurido, eritema local"
+    },
+    {
+        "nome": "Tacrolimo",
+        "descricao": "Imunossupressor tópico utilizado no tratamento de dermatite atópica moderada a grave.",
+        "dosagem": "0,1% pomada",
+        "laboratorio": "Astellas",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Infecções cutâneas ativas, hipersensibilidade ao tacrolimo",
+        "efeitos_colaterais": "Sensação de queimação, prurido, eritema"
+    },
+    {
+        "nome": "Acitretina",
+        "descricao": "Retinoide oral utilizado no tratamento de psoríase grave e outras dermatoses resistentes.",
+        "dosagem": "25mg",
+        "laboratorio": "Roche",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Gravidez, insuficiência hepática, insuficiência renal",
+        "efeitos_colaterais": "Ressecamento de mucosas, hepatotoxicidade, alterações lipídicas"
+    },
+    {
+        "nome": "Alendronato",
+        "descricao": "Bifosfonato utilizado para prevenir e tratar osteoporose, reduzindo o risco de fraturas ósseas.",
+        "dosagem": "70mg",
+        "laboratorio": "Merck Sharp & Dohme",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Hipocalcemia, anormalidades esofágicas, incapacidade de ficar em pé",
+        "efeitos_colaterais": "Esofagite, dor abdominal, dor musculoesquelética"
+    },
+    {
+        "nome": "Sulfassalazina",
+        "descricao": "Fármaco anti-inflamatório utilizado no tratamento da artrite reumatoide e espondilite anquilosante.",
+        "dosagem": "500mg",
+        "laboratorio": "EMS",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Porfiria, obstrução intestinal ou urinária, hipersensibilidade à sulfa",
+        "efeitos_colaterais": "Distúrbios gastrointestinais, cefaleia, rash cutâneo"
+    },
+    {
+        "nome": "Ibuprofeno",
+        "descricao": "Anti-inflamatório não esteroidal utilizado para dor aguda, febre e inflamações musculoesqueléticas.",
+        "dosagem": "400mg",
+        "laboratorio": "Advil",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Úlcera péptica ativa, insuficiência renal grave, hipersensibilidade aos AINEs",
+        "efeitos_colaterais": "Dor abdominal, náusea, risco de sangramento"
+    },
+    {
+        "nome": "Ácido hialurônico",
+        "descricao": "Utilizado em infiltrações articulares para tratamento de osteoartrite, promovendo lubrificação e alívio da dor.",
+        "dosagem": "20mg/2ml",
+        "laboratorio": "Fidia",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Infecção ou inflamação articular ativa",
+        "efeitos_colaterais": "Dor local, inchaço, rigidez articular"
+    },
+    {
+        "nome": "Diltiazem",
+        "descricao": "Bloqueador dos canais de cálcio utilizado para tratar hipertensão, angina e certas arritmias cardíacas.",
+        "dosagem": "60mg",
+        "laboratorio": "Aché",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Bradicardia severa, insuficiência cardíaca descompensada, hipotensão grave",
+        "efeitos_colaterais": "Edema, tontura, cefaleia"
+    },
+    {
+        "nome": "Pravastatina",
+        "descricao": "Estatina utilizada para reduzir o colesterol LDL e prevenir doenças cardiovasculares.",
+        "dosagem": "20mg",
+        "laboratorio": "Bristol-Myers Squibb",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Doença hepática ativa, gravidez, amamentação",
+        "efeitos_colaterais": "Mialgia, elevação de enzimas hepáticas, distúrbios gastrointestinais"
+    },
+    {
+        "nome": "Nebivolol",
+        "descricao": "Betabloqueador de última geração utilizado no tratamento da hipertensão arterial e insuficiência cardíaca.",
+        "dosagem": "5mg",
+        "laboratorio": "Biolab",
+        "especialidade": "Cardiologista",
+        "contraindicacoes": "Bradicardia severa, insuficiência cardíaca descompensada, bloqueio AV",
+        "efeitos_colaterais": "Fadiga, tontura, cefaleia"
+    },
+    {
+        "nome": "Clobetasol",
+        "descricao": "Corticosteroide tópico de alta potência para dermatites, psoríase e outras dermatoses inflamatórias graves.",
+        "dosagem": "0,05% creme",
+        "laboratorio": "EMS",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Infecções cutâneas não tratadas, rosácea, acne vulgar",
+        "efeitos_colaterais": "Atrofia cutânea, estrias, telangiectasia"
+    },
+    {
+        "nome": "Hidroxicloroquina",
+        "descricao": "Fármaco antimalárico e imunomodulador utilizado em doenças autoimunes como lúpus e artrite reumatoide.",
+        "dosagem": "400mg",
+        "laboratorio": "Sanofi",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Retinopatia pré-existente, hipersensibilidade à hidroxicloroquina",
+        "efeitos_colaterais": "Distúrbios visuais, náusea, prurido"
+    },
+    {
+        "nome": "Permetrina",
+        "descricao": "Inseticida tópico utilizado no tratamento de escabiose (sarna) e pediculose (piolho).",
+        "dosagem": "5% creme",
+        "laboratorio": "Galderma",
+        "especialidade": "Dermatologista",
+        "contraindicacoes": "Hipersensibilidade à permetrina ou piretróides",
+        "efeitos_colaterais": "Irritação, prurido, eritema"
+    },
+    {
+        "nome": "Sulfato de glucosamina",
+        "descricao": "Suplemento utilizado como condroprotetor no tratamento da osteoartrite, ajudando na manutenção da cartilagem articular.",
+        "dosagem": "1500mg",
+        "laboratorio": "EMS",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Alergia a crustáceos, fenilcetonúria",
+        "efeitos_colaterais": "Distúrbios gastrointestinais, sonolência, cefaleia"
+    },
+    {
+        "nome": "Meloxicam",
+        "descricao": "Anti-inflamatório não esteroidal (AINE) utilizado no tratamento de artrite reumatoide, osteoartrite e dor musculoesquelética.",
+        "dosagem": "15mg",
+        "laboratorio": "Boehringer Ingelheim",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Úlcera péptica ativa, insuficiência renal grave",
+        "efeitos_colaterais": "Dor abdominal, náusea, risco de sangramento"
+    },
+    {
+        "nome": "Pamidronato",
+        "descricao": "Bifosfonato utilizado no tratamento da doença de Paget, hipercalcemia maligna e metástases ósseas.",
+        "dosagem": "90mg",
+        "laboratorio": "Novartis",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Gravidez, insuficiência renal grave, hipocalcemia",
+        "efeitos_colaterais": "Febre, dor óssea, sintomas gripais"
+    },
+    {
+        "nome": "Tizanidina",
+        "descricao": "Relaxante muscular utilizado no tratamento de espasticidade associada a doenças neuromusculares e lesões ortopédicas.",
+        "dosagem": "4mg",
+        "laboratorio": "Medley",
+        "especialidade": "Ortopedista",
+        "contraindicacoes": "Insuficiência hepática grave, uso concomitante com ciprofloxacino",
+        "efeitos_colaterais": "Sonolência, hipotensão, boca seca"
+    }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "simple-ts-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-db": "tsx migrations/setupDatabase.ts && tsx migrations/uploadDocs.ts"
+  },
+  "keywords": [],
+  "author": "aziontech",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.42",
+    "@langchain/core": "^0.3.54",
+    "azion": "latest",
+    "gray-matter": "^4.0.3",
+    "itty-router": "^4.2.0",
+    "langchain": "^0.3.24"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
