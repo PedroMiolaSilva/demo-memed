@@ -28,7 +28,7 @@ export async function retrieve(body:any) {
                         json_extract(metadata, '$.efeitos_colaterais') AS efeitos_colaterais,
                         1 - vector_distance_cos(embedding, vector('[${embeddedContent}]')) AS similarity,
                         'similarity' AS source
-                      FROM vectors2
+                      FROM vectors
                       WHERE (1 - vector_distance_cos(embedding, vector('[${embeddedContent}]'))) > 0.2
                         ${filter ? `AND json_extract(metadata, '$.especialidade') = '${filter}'` : ''}
                       ORDER BY vector_distance_cos(embedding, vector('[${embeddedContent}]')) ASC

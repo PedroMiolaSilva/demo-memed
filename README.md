@@ -19,6 +19,7 @@ brew install azion
 ```
 For other platforms (Windows/Linux) you can [view the instructions](https://www.azion.com/en/documentation/products/azion-cli/overview/) on how to install the Azion CLI.
 
+
 Next, add a [personal token](https://console.azion.com/personal-tokens) to authenticate.
 ```bash
 azion -t PERSONAL_TOKEN
@@ -29,9 +30,9 @@ azion -t PERSONAL_TOKEN
 Make sure you have Node 20 or higher and [yarn](https://yarnpkg.com/) installed.
 
 Run the following on the project root folder.
+
 ```bash
-yarn install
-azion init
+azion link #here select typescript as preset
 azion deploy --local
 ```
 

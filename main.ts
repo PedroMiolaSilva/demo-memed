@@ -2,7 +2,7 @@ import type { CustomEvent } from "./src/types/event";
 import { retrieve } from "./src/queryDocuments"
 import { addDocuments } from "./src/addDocuments";
 
-export async function router(event: CustomEvent) {
+export default async function router(event: CustomEvent) {
   // Handle CORS preflight
   if (event.request.method === "OPTIONS") {
     return new Response(null, {
@@ -38,8 +38,8 @@ export async function router(event: CustomEvent) {
 
       case "/add_documents":
         await addDocuments(body)
-        return new Response(JSON.stringify({ message: "Document addition not implemented yet" }), {
-          status: 501,
+        return new Response(JSON.stringify({ message: "Document added to the database!" }), {
+          status: 200,
           headers: { "Content-Type": "application/json" }
         });
 

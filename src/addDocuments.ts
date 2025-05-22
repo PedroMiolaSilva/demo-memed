@@ -17,12 +17,18 @@ export async function addDocuments(body: any){
     }
 
     if (!data){
+        console.error("No data provided")
         throw new Error("No data provided.")
     }
 
     for (const row in data){
         const statement = await createInsertStatement(row)
-        await useExecute(name,[statement])
+        const {data, error} = await useExecute(name,[statement])
+        
+        if (error) {
+            console.error(JSON.stringify(error))
+            throw error
+        }
     }
 
     } catch (error){
