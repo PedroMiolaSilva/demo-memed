@@ -18,6 +18,8 @@ git clone this url that idk yet :)
 brew install azion
 ```
 
+Other instalation options in the [documentation](https://www.azion.com/en/documentation/products/azion-cli/overview/)
+
 3 - On the project's folder, run the following:
 ```bash
 yarn install
