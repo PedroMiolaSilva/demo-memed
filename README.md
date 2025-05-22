@@ -76,4 +76,6 @@ curl -X POST 'https://your-edge-url/add_documents' \
 }'
 ```
 
+The files used on the demonstration are in migrations/files/medication.json.
+
 Note: The `dbName` parameter is optional in both endpoints. If not provided, it defaults to 'memeddatabase'.
