@@ -22,8 +22,7 @@ Other instalation options in the [documentation](https://www.azion.com/en/docume
 
 3 - On the project's folder, run the following:
 ```bash
-yarn install
-azion init
+azion link #here select typescript as preset
 azion deploy --local
 ```
 
