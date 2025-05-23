@@ -59,25 +59,6 @@ curl -X POST 'https://your-edge-url/query' \
 }'
 ```
 
-## Add Documents
-Add new documents to the vector database.
-
-```bash
-curl -X POST 'https://your-edge-url/add_documents' \
--H 'Content-Type: application/json' \
--d '{
-  "dbName": "optional_database_name", (defaults to memeddatabase)
-  "data": [
-    {
-      "coluna1": "Document Name",
-      "coluna2": "Document Description",
-      "coluna3": "Dosage Information"
-      ....
-    }
-  ]
-}'
-```
-
-The files used on the demonstration are in migrations/files/medication.json.
+The files used on the demonstration are AI generated. They are in migrations/files/medication.json.
 
 Note: The `dbName` parameter is optional in both endpoints. If not provided, it defaults to 'memeddatabase'.
