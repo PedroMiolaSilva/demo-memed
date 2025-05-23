@@ -1,5 +1,6 @@
 import { useExecute, getDatabase, createDatabase } from "azion/sql"
-
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 /**
  * Creates the database and applies the necessay queries on it
@@ -33,6 +34,9 @@ export async function configureDatabase(name:string){
         console.error("Error while executing queries on the database: ", executeError)
         throw executeError
     }
+
+    await executeInsertQueries(name)
+    return
 }
 
 /**
@@ -79,3 +83,30 @@ function setupDbStatements(){
             END`
     ];
 }
+
+/**
+ * Executes the insert queries from the insert.sql file into the specified database
+ * @param name The name of the database to insert the data into
+ */
+export async function executeInsertQueries(name: string) {
+    try {
+        // Read the insert.sql file
+        const insertPath = join(__dirname, 'insert.sql');
+        const insertQueries = readFileSync(insertPath, 'utf-8').split(';').filter(query => query.trim());
+        console.log(insertQueries.length)
+        // Execute each query
+        for (const query of insertQueries) {
+            const { error } = await useExecute(name, [query]);
+            if (error) {
+                console.error(`Error executing query: ${error}`);
+                throw error;
+            }
+        }
+
+      console.log(`Successfully executed ${insertQueries.length} insert queries`);
+    } catch (error) {
+      console.error('Error executing insert queries:', error);
+      throw error;
+    }
+}
+
