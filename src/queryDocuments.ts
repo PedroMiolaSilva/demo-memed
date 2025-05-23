@@ -55,7 +55,7 @@ export async function retrieve(body:any) {
                         END as similarity,
                         'fts' as source
                       FROM vectors_fts
-                      WHERE vectors_fts MATCH '${sanitizedQuery}' OR vectors_fts MATCH '${sanitizedQuery}*' 
+                      WHERE (vectors_fts MATCH '${sanitizedQuery}' OR vectors_fts MATCH '${sanitizedQuery}*')
                       ${filter ? `AND especialidade = '${filter}'` : ''}
                       ORDER BY rank DESC
                       LIMIT 3`
