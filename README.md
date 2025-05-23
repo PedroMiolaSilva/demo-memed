@@ -42,7 +42,6 @@ After a couple minutes, your template will be deployed on Azion's Edge (a domain
 
 Then, you can test two available routes:
 - /query: to retrieve documents based on a query
-- /add_documents: to add new documents to your database
 
 # API Endpoints
 
