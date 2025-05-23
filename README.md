@@ -59,6 +59,24 @@ curl -X POST 'https://your-edge-url/query' \
 }'
 ```
 
+Soma examples of queries are:
+
+To test Full text search capabilities
+-> query: minox
+-> query: minoxidil
+-> query: edemas
+
+To test similarity search capabilities
+-> query: cabelo caindo
+-> query: paciente relata dor
+
+You can also specify filters to be used in the "especialidade" column
+-> filter: Cardiologista
+-> filter: Ortopedista
+-> filter: Dermatologista
+
+To enhance the search results, many different strategies can be used on the SQL queries, combining both FTS and vector functionalities. You can access the sqlite documentation to understand how to implement these: [sqlite docs](https://www.sqlite.org/docs.html).
+
 The files used on the demonstration are AI generated. They are in migrations/files/medication.json.
 
 Note: The `dbName` parameter is optional in both endpoints. If not provided, it defaults to 'memeddatabase'.
