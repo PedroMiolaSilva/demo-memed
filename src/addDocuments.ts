@@ -23,7 +23,7 @@ export async function addDocuments(body: any){
 
     for (const row in data){
         const statement = await createInsertStatement(row)
-        const {data, error} = await useExecute(name,[statement])
+        const {data, error} = await useExecute(name, [statement],{ external:true })
         
         if (error) {
             console.error(JSON.stringify(error))
