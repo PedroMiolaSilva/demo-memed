@@ -18,6 +18,7 @@ export async function retrieve(body:any) {
 
     const embeddedContent = await azionEmbeddings(query)
 
+    //Basic vector similarity query
     const querySim = `SELECT
                         json_extract(metadata, '$.nome') AS nome,
                         json_extract(metadata, '$.descricao') AS descricao,
@@ -39,6 +40,7 @@ export async function retrieve(body:any) {
       .trim()
       .replace(/\s+/g, ' OR ')
 
+    //Basic Full text search query
     const queryFts = `SELECT 
                         json_extract(metadata, '$.nome') AS nome,
                         json_extract(metadata, '$.descricao') AS descricao,
@@ -58,7 +60,7 @@ export async function retrieve(body:any) {
                       ORDER BY rank DESC
                       LIMIT 3`
 
-    const result = await useQuery('memeddatabase', [querySim, queryFts])
+    const result = await useQuery(name, [querySim, queryFts])
 
     return mapDbResults(result)
   } catch (error) {
